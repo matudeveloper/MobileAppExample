@@ -1,5 +1,5 @@
 import React from "react";
-import {Text,View,Image} from "react-native";
+import {Text,View,Image, Pressable} from "react-native";
 import Button from "../../../components/Button";
 import { styles } from "./styles";
 
@@ -13,6 +13,9 @@ const Splash = () => {
             <Text style={styles.title} >Here!</Text>
 
             <Button title="Sign Up" />
+            <Pressable hitSlop={20} >
+                <Text style={styles.footerText}>Sign In</Text>
+            </Pressable>
         </View>
         
     )
