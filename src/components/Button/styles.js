@@ -1,4 +1,7 @@
 import { StyleSheet } from "react-native";
+
+import {colors} from "../../utilis/colors"
+
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: "#4F63AC",
@@ -6,7 +9,7 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 8,
         borderRadius: 10,
         width: "100%",
-        padding: 25
+        
     },
     title: {
         color: "#FFFFFF",
