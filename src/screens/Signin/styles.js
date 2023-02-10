@@ -4,7 +4,8 @@ import {colors} from "../../utilis/colors"
 
 export const styles = StyleSheet.create({
     container: {
-        padding: 24
+        padding: 24,
+        marginTop: 20,
     },
     agreeRow: {
         flexDirection: "row",
