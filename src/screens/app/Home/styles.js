@@ -4,8 +4,11 @@ import {colors} from "../../utilis/colors"
 
 export const styles = StyleSheet.create({
     container: {
-        padding: 0,
-        marginTop: 0,
+        padding: 24,
+        
     },
+    list: {
+        paddingVertical: 24
+    }
    
 })
