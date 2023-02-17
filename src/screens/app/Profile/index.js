@@ -6,7 +6,7 @@ import { styles } from './styles';
 const Profile = () => {
     return (
         <SafeAreaView>
-            <View style={styles.containe} >
+            <View style={styles.container} >
                 <Text>Profile</Text>
             </View>
         </SafeAreaView>
