@@ -25,7 +25,7 @@ const Signup = ({navigation}) => {
         <ScrollView>
             <SafeAreaView>
             <View style={styles.container}>
-            <AuthHeader onBackPress={onBack} title="Sign Up" />
+            <AuthHeader title="Sign Up" />
             <Input label="Name" placeholder="John Doe"/>
             <Input label="Email" placeholder="example@gmail.com"/>
             <Input isPassword label="Password" placeholder="******"/>
