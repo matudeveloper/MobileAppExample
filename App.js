@@ -19,6 +19,7 @@ import Config from 'react-native-config'
 import Home from "./src/screens/app/Home";
 import Favorites from "./src/screens/app/Favorites";
 import Profile from "./src/screens/app/Profile";
+import ProductDetails from "./src/screens/app/ProductDetails";
 
 
 //const WEB_CLIENT_ID = '58409343222-2sno2sss77hjbsmjhvuclhcb81hbv5nr.apps.googleusercontent.com'
@@ -101,6 +102,8 @@ function App () {
           isSignedIn ? (
             <>
               <Stack.Screen name='Tabs' component={Tabs} options={{headerShown: false}} />
+              <Stack.Screen name="ProductDetails" component={ProductDetails} 
+              options={{headerShown: false}} />
             </>
           ) : (
             <>
